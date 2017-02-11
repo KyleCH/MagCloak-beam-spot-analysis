@@ -1,0 +1,44 @@
+#!/usr/bin/env python3
+
+import numpy as np
+
+# ======================================================================
+# IFD entry tag types.
+# ======================================================================
+
+tag_type = {
+    1 : chr,
+    2 : str,
+    3 : 'unsigned short (2 bytes)',
+    4 : 'unsigned long (4 bytes)',
+    5 : 'unsigned rationnal (2 unsigned long)',
+    6 : 'signed char',
+    7 : 'byte sequence',
+    8 : 'signed short',
+    9 : 'signed long',
+    10 : 'signed rationnal (2 signed long)',
+    11 : 'float, 4 bytes, IEEE format',
+    12 : 'float, 8 bytes, IEEE format',
+    }
+
+tag_type_str = {
+    1 : 'unsigned char',
+    2 : 'string (with an ending zero)',
+    3 : 'unsigned short (2 bytes)',
+    4 : 'unsigned long (4 bytes)',
+    5 : 'unsigned rationnal (2 unsigned long)',
+    6 : 'signed char',
+    7 : 'byte sequence',
+    8 : 'signed short',
+    9 : 'signed long',
+    10 : 'signed rationnal (2 signed long)',
+    11 : 'float, 4 bytes, IEEE format',
+    12 : 'float, 8 bytes, IEEE format',
+    }
+
+# ======================================================================
+# .
+# ======================================================================
+
+
+

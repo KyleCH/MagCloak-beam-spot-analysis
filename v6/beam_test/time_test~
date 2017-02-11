@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+
+import timeit
+
+from beam_spot import colors
+from beam_spot import modio
+
+test_files = []
+
+functions = [
+    'colors.from_RGB_vect(img)',
+    'colors.from_RGB_wo_vect(img)',
+    'colors.from_RGB_w_vect(img)',
+    'colors.from_RGB_w_vect_2(img)',
+    ]
+
+# modio.check_out_dir(dirs)
+
+for fname in test_files:
+    img = modio.image(fname)
+    print('Using {}...'.format(fname))
+    for f in functions:
+        print(f+':')
+        print(timeit.timeit(f, globals=globals()))

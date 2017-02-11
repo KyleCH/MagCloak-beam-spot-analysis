@@ -1,0 +1,48 @@
+Input File: ./IMG_0478.CR2
+
+File header.
+	byte order: II
+	TIFF magic word: 0x002a
+	TIFF offset: 0x00000010
+	CR2 magic word: CR
+	CR2 major version: 2
+	CR2 minor version: 0
+	RAW IFD offset: 0x0000b502
+
+RAW image file directory.
+	number of entries: 0x0007
+	entry#0:
+		tag ID: 0x0103
+		tag type: 0x0003
+		number of value: 0x00000001
+		value, or pointer to the data: 0x00000006
+	entry#1:
+		tag ID: 0x0111
+		tag type: 0x0004
+		number of value: 0x00000001
+		value, or pointer to the data: 0x003f6b10
+	entry#2:
+		tag ID: 0x0117
+		tag type: 0x0004
+		number of value: 0x00000001
+		value, or pointer to the data: 0x01391f53
+	entry#3:
+		tag ID: 0xc5d8
+		tag type: 0x0004
+		number of value: 0x00000001
+		value, or pointer to the data: 0x00000001
+	entry#4:
+		tag ID: 0xc5e0
+		tag type: 0x0004
+		number of value: 0x00000001
+		value, or pointer to the data: 0x00000003
+	entry#5:
+		tag ID: 0xc640
+		tag type: 0x0003
+		number of value: 0x00000003
+		value, or pointer to the data: 0x0000b55c
+	entry#6:
+		tag ID: 0xc6c5
+		tag type: 0x0004
+		number of value: 0x00000001
+		value, or pointer to the data: 0x00000001
